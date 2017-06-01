@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028B1B4D1EE02B3C00DC7616 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B1B4C1EE02B3C00DC7616 /* AppDelegate.swift */; };
+		028B1B4F1EE02B3C00DC7616 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 028B1B4E1EE02B3C00DC7616 /* GameScene.sks */; };
+		028B1B511EE02B3C00DC7616 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 028B1B501EE02B3C00DC7616 /* Actions.sks */; };
+		028B1B531EE02B3C00DC7616 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B1B521EE02B3C00DC7616 /* GameScene.swift */; };
+		028B1B551EE02B3C00DC7616 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B1B541EE02B3C00DC7616 /* GameViewController.swift */; };
+		028B1B581EE02B3C00DC7616 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028B1B561EE02B3C00DC7616 /* Main.storyboard */; };
+		028B1B5A1EE02B3C00DC7616 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 028B1B591EE02B3C00DC7616 /* Assets.xcassets */; };
+		028B1B5D1EE02B3C00DC7616 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 028B1B5B1EE02B3C00DC7616 /* LaunchScreen.storyboard */; };
+		028B1B681EE02B3D00DC7616 /* NumericaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B1B671EE02B3D00DC7616 /* NumericaTests.swift */; };
+		028B1B731EE02B3D00DC7616 /* NumericaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 028B1B721EE02B3D00DC7616 /* NumericaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		028B1B641EE02B3D00DC7616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 028B1B411EE02B3C00DC7616 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 028B1B481EE02B3C00DC7616;
+			remoteInfo = Numerica;
+		};
+		028B1B6F1EE02B3D00DC7616 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 028B1B411EE02B3C00DC7616 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 028B1B481EE02B3C00DC7616;
+			remoteInfo = Numerica;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		028B1B491EE02B3C00DC7616 /* Numerica.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Numerica.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		028B1B4C1EE02B3C00DC7616 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		028B1B4E1EE02B3C00DC7616 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		028B1B501EE02B3C00DC7616 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		028B1B521EE02B3C00DC7616 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		028B1B541EE02B3C00DC7616 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		028B1B571EE02B3C00DC7616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		028B1B591EE02B3C00DC7616 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		028B1B5C1EE02B3C00DC7616 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		028B1B5E1EE02B3C00DC7616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028B1B631EE02B3D00DC7616 /* NumericaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumericaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		028B1B671EE02B3D00DC7616 /* NumericaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericaTests.swift; sourceTree = "<group>"; };
+		028B1B691EE02B3D00DC7616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		028B1B6E1EE02B3D00DC7616 /* NumericaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NumericaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		028B1B721EE02B3D00DC7616 /* NumericaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericaUITests.swift; sourceTree = "<group>"; };
+		028B1B741EE02B3D00DC7616 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		028B1B461EE02B3C00DC7616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028B1B601EE02B3D00DC7616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028B1B6B1EE02B3D00DC7616 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		028B1B401EE02B3C00DC7616 = {
+			isa = PBXGroup;
+			children = (
+				028B1B4B1EE02B3C00DC7616 /* Numerica */,
+				028B1B661EE02B3D00DC7616 /* NumericaTests */,
+				028B1B711EE02B3D00DC7616 /* NumericaUITests */,
+				028B1B4A1EE02B3C00DC7616 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		028B1B4A1EE02B3C00DC7616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				028B1B491EE02B3C00DC7616 /* Numerica.app */,
+				028B1B631EE02B3D00DC7616 /* NumericaTests.xctest */,
+				028B1B6E1EE02B3D00DC7616 /* NumericaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		028B1B4B1EE02B3C00DC7616 /* Numerica */ = {
+			isa = PBXGroup;
+			children = (
+				028B1B4C1EE02B3C00DC7616 /* AppDelegate.swift */,
+				028B1B4E1EE02B3C00DC7616 /* GameScene.sks */,
+				028B1B501EE02B3C00DC7616 /* Actions.sks */,
+				028B1B521EE02B3C00DC7616 /* GameScene.swift */,
+				028B1B541EE02B3C00DC7616 /* GameViewController.swift */,
+				028B1B561EE02B3C00DC7616 /* Main.storyboard */,
+				028B1B591EE02B3C00DC7616 /* Assets.xcassets */,
+				028B1B5B1EE02B3C00DC7616 /* LaunchScreen.storyboard */,
+				028B1B5E1EE02B3C00DC7616 /* Info.plist */,
+			);
+			path = Numerica;
+			sourceTree = "<group>";
+		};
+		028B1B661EE02B3D00DC7616 /* NumericaTests */ = {
+			isa = PBXGroup;
+			children = (
+				028B1B671EE02B3D00DC7616 /* NumericaTests.swift */,
+				028B1B691EE02B3D00DC7616 /* Info.plist */,
+			);
+			path = NumericaTests;
+			sourceTree = "<group>";
+		};
+		028B1B711EE02B3D00DC7616 /* NumericaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				028B1B721EE02B3D00DC7616 /* NumericaUITests.swift */,
+				028B1B741EE02B3D00DC7616 /* Info.plist */,
+			);
+			path = NumericaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		028B1B481EE02B3C00DC7616 /* Numerica */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028B1B771EE02B3D00DC7616 /* Build configuration list for PBXNativeTarget "Numerica" */;
+			buildPhases = (
+				028B1B451EE02B3C00DC7616 /* Sources */,
+				028B1B461EE02B3C00DC7616 /* Frameworks */,
+				028B1B471EE02B3C00DC7616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Numerica;
+			productName = Numerica;
+			productReference = 028B1B491EE02B3C00DC7616 /* Numerica.app */;
+			productType = "com.apple.product-type.application";
+		};
+		028B1B621EE02B3D00DC7616 /* NumericaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028B1B7A1EE02B3D00DC7616 /* Build configuration list for PBXNativeTarget "NumericaTests" */;
+			buildPhases = (
+				028B1B5F1EE02B3D00DC7616 /* Sources */,
+				028B1B601EE02B3D00DC7616 /* Frameworks */,
+				028B1B611EE02B3D00DC7616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				028B1B651EE02B3D00DC7616 /* PBXTargetDependency */,
+			);
+			name = NumericaTests;
+			productName = NumericaTests;
+			productReference = 028B1B631EE02B3D00DC7616 /* NumericaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		028B1B6D1EE02B3D00DC7616 /* NumericaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 028B1B7D1EE02B3D00DC7616 /* Build configuration list for PBXNativeTarget "NumericaUITests" */;
+			buildPhases = (
+				028B1B6A1EE02B3D00DC7616 /* Sources */,
+				028B1B6B1EE02B3D00DC7616 /* Frameworks */,
+				028B1B6C1EE02B3D00DC7616 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				028B1B701EE02B3D00DC7616 /* PBXTargetDependency */,
+			);
+			name = NumericaUITests;
+			productName = NumericaUITests;
+			productReference = 028B1B6E1EE02B3D00DC7616 /* NumericaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		028B1B411EE02B3C00DC7616 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = taichikato;
+				TargetAttributes = {
+					028B1B481EE02B3C00DC7616 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = A2C4T7Q53Z;
+						ProvisioningStyle = Automatic;
+					};
+					028B1B621EE02B3D00DC7616 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = A2C4T7Q53Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 028B1B481EE02B3C00DC7616;
+					};
+					028B1B6D1EE02B3D00DC7616 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = A2C4T7Q53Z;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 028B1B481EE02B3C00DC7616;
+					};
+				};
+			};
+			buildConfigurationList = 028B1B441EE02B3C00DC7616 /* Build configuration list for PBXProject "Numerica" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 028B1B401EE02B3C00DC7616;
+			productRefGroup = 028B1B4A1EE02B3C00DC7616 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				028B1B481EE02B3C00DC7616 /* Numerica */,
+				028B1B621EE02B3D00DC7616 /* NumericaTests */,
+				028B1B6D1EE02B3D00DC7616 /* NumericaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		028B1B471EE02B3C00DC7616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028B1B581EE02B3C00DC7616 /* Main.storyboard in Resources */,
+				028B1B4F1EE02B3C00DC7616 /* GameScene.sks in Resources */,
+				028B1B5A1EE02B3C00DC7616 /* Assets.xcassets in Resources */,
+				028B1B5D1EE02B3C00DC7616 /* LaunchScreen.storyboard in Resources */,
+				028B1B511EE02B3C00DC7616 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028B1B611EE02B3D00DC7616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028B1B6C1EE02B3D00DC7616 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		028B1B451EE02B3C00DC7616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028B1B531EE02B3C00DC7616 /* GameScene.swift in Sources */,
+				028B1B551EE02B3C00DC7616 /* GameViewController.swift in Sources */,
+				028B1B4D1EE02B3C00DC7616 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028B1B5F1EE02B3D00DC7616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028B1B681EE02B3D00DC7616 /* NumericaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		028B1B6A1EE02B3D00DC7616 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				028B1B731EE02B3D00DC7616 /* NumericaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		028B1B651EE02B3D00DC7616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 028B1B481EE02B3C00DC7616 /* Numerica */;
+			targetProxy = 028B1B641EE02B3D00DC7616 /* PBXContainerItemProxy */;
+		};
+		028B1B701EE02B3D00DC7616 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 028B1B481EE02B3C00DC7616 /* Numerica */;
+			targetProxy = 028B1B6F1EE02B3D00DC7616 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		028B1B561EE02B3C00DC7616 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028B1B571EE02B3C00DC7616 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		028B1B5B1EE02B3C00DC7616 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				028B1B5C1EE02B3C00DC7616 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		028B1B751EE02B3D00DC7616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		028B1B761EE02B3D00DC7616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		028B1B781EE02B3D00DC7616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2C4T7Q53Z;
+				INFOPLIST_FILE = Numerica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taichikato.Numerica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		028B1B791EE02B3D00DC7616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A2C4T7Q53Z;
+				INFOPLIST_FILE = Numerica/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taichikato.Numerica;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		028B1B7B1EE02B3D00DC7616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A2C4T7Q53Z;
+				INFOPLIST_FILE = NumericaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taichikato.NumericaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Numerica.app/Numerica";
+			};
+			name = Debug;
+		};
+		028B1B7C1EE02B3D00DC7616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = A2C4T7Q53Z;
+				INFOPLIST_FILE = NumericaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taichikato.NumericaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Numerica.app/Numerica";
+			};
+			name = Release;
+		};
+		028B1B7E1EE02B3D00DC7616 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A2C4T7Q53Z;
+				INFOPLIST_FILE = NumericaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taichikato.NumericaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Numerica;
+			};
+			name = Debug;
+		};
+		028B1B7F1EE02B3D00DC7616 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = A2C4T7Q53Z;
+				INFOPLIST_FILE = NumericaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.taichikato.NumericaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Numerica;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		028B1B441EE02B3C00DC7616 /* Build configuration list for PBXProject "Numerica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028B1B751EE02B3D00DC7616 /* Debug */,
+				028B1B761EE02B3D00DC7616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		028B1B771EE02B3D00DC7616 /* Build configuration list for PBXNativeTarget "Numerica" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028B1B781EE02B3D00DC7616 /* Debug */,
+				028B1B791EE02B3D00DC7616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		028B1B7A1EE02B3D00DC7616 /* Build configuration list for PBXNativeTarget "NumericaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028B1B7B1EE02B3D00DC7616 /* Debug */,
+				028B1B7C1EE02B3D00DC7616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		028B1B7D1EE02B3D00DC7616 /* Build configuration list for PBXNativeTarget "NumericaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				028B1B7E1EE02B3D00DC7616 /* Debug */,
+				028B1B7F1EE02B3D00DC7616 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 028B1B411EE02B3C00DC7616 /* Project object */;
+}
